@@ -11,7 +11,7 @@ statsd = {{ statsd_level }}
 database_name = {{ mysql_db }}
 hostname = {{ mysql_node }}
 username = {{ mysql_user }}
-password = {{ mysql_pass }}
+password = "{{ mysql_pass }}"
 
 [kafka]
 url: {{ kafka_node }}
