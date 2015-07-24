@@ -1,0 +1,4 @@
+---
+
+- name: pip install monasca-events-transform
+  pip: name=monasca-events-transform state=latest virtualenv="{{monasca_virtualenv_dir}}" extra_args='--no-cache-dir'
