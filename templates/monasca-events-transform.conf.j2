@@ -11,4 +11,4 @@ respawn limit 25 5
 
 setgid {{ events_group }}
 setuid {{ events_user }}
-exec {{ monasca_virtualenv_dir }}/bin/events_transform
+exec /usr/local/bin/events_transform
